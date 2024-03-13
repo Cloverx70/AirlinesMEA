@@ -1,0 +1,36 @@
+{
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/"
+    },
+    {
+      "src": "/dashboard",
+      "dest": "/"
+    },
+    {
+      "src": "/profile",
+      "dest": "/"
+    },
+    {
+      "src": "/destinations",
+      "dest": "/"
+    },
+    {
+      "src": "/destinations/asia",
+      "dest": "/"
+    },
+    {
+      "src": "/destinations/africa",
+      "dest": "/"
+    },
+    {
+      "src": "/destinations/europe",
+      "dest": "/"
+    },
+    {
+      "src": "/destinations/america",
+      "dest": "/"
+    }
+  ]
+}
