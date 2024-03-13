@@ -46,11 +46,11 @@ const DashboardPreview = () => {
 
   async function fetchWeather() {
     const response = await fetch(
-      `http://api.weatherapi.com/v1/current.json?q=Lebanon&key=0851be13dd4b4b5e83a153111240603`
+      `https://api.weatherapi.com/v1/current.json?q=Lebanon&key=0851be13dd4b4b5e83a153111240603`
     );
 
     const responseForcast = await fetch(
-      `http://api.weatherapi.com/v1/forecast.json?q=Lebanon&key=0851be13dd4b4b5e83a153111240603`
+      `https://api.weatherapi.com/v1/forecast.json?q=Lebanon&key=0851be13dd4b4b5e83a153111240603`
     );
 
     const WeatherData = await response.json();
